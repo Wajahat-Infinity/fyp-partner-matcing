@@ -1,0 +1,202 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% load core_tags %}
+
+{% block subtitle %}
+    Emails List
+{% endblock %}
+
+{% block page_heading %} Email List {% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12">
+            <form method="get" id="search-form">
+                <div class="input-group mb-3">
+                    {{ filter_form }}
+                    <button style="margin-left: 3px" class="btn btn-primary ms-3S" type="submit">
+                        <i class="fa fa-search"></i> Search
+                    </button>
+                    <a style="margin-left: 2px" class="btn btn-danger" href="{% url 'whisper:emailnotification-list' %}">
+                        <i class="fa fa-brush"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card border-0">
+                <div class="card-body px-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-borderless">
+                            {% if object_list %}
+                                <thead class="border-bottom">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Subject</th>
+                                    <th>Recipient</th>
+                                    <th>Status</th>
+{#                                    <th>Failed Attempts</th>#}
+                                    <th>Created at</th>
+                                    <th>Active</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+
+                                {% for object in object_list %}
+                                    <tr>
+                                        <td>{{ object.pk }}</td>
+                                        <td>{{ object.subject }}</td>
+                                        <td>{{ object.recipient }}</td>
+                                        <td>
+                                            <span class="text-white badge bg-{{ object.status|alert_type_class }}">
+                                                <b>
+                                                    {% if object.status == "sent" %}
+                                                        <i class="fa fa-check-circle"></i>
+                                                    {% else %}
+                                                        <i class="fa fa-times-circle"></i>
+                                                    {% endif %}
+                                                    {{ object.status }}
+                                                </b>
+
+                                            </span>
+
+                                            {% if object.status == 'failed' %}
+                                                 | <i class="fa fa-eye text-danger text-white"
+                                                   data-object-value="{{ object.error_message }}"
+                                                   onclick="showError(this)"></i>
+                                            {% endif %}
+                                        </td>
+
+{#                                        <td class="text-center">{{ object.failed_attempts }}</td>#}
+                                        <td>{{ object.created_at.date|check_null }}</td>
+
+
+                                        <td>
+                                            {% if request.user.is_superuser or perms.whisper.change_emailnotification %}
+
+                                                <a href="{% url 'whisper:emailnotification-retry' object.pk %}"
+                                                   class="text-decoration-none"><i
+                                                        class="fa fa-repeat"></i> Retry
+                                                </a>
+                                            {% else %}
+                                                -
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+
+                                </tbody>
+                            {% else %}
+                                <div class="text-center py-4">
+                                    <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop" colors="primary:#405189,secondary:#0ab39c" style="width:75px;height:75px"></lord-icon>
+                                    <h5 class="mt-2">Sorry! No Result Found</h5>
+                                    <p class="text-muted mb-0">
+                                        We've couldn't find any related data in our the database.
+                                    </p>
+                                </div>
+                            {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="mt-4">
+                <ul class="pagination">
+                    {% if object_list.has_previous %}
+                        <li>
+                            <span>
+                                <a href="{% relative_url object_list.previous_page_number 'page' request.GET.urlencode %}">
+                                    Previous
+                                </a>
+                            </span>
+                        </li>
+                    {% endif %}
+                    <li class="">
+                        <span>Page {{ object_list.number }} of {{ object_list.paginator.num_pages }}.</span>
+                    </li>
+                    {% if object_list.has_next %}
+                        <li>
+                            <span>
+                                <a href="{% relative_url object_list.next_page_number 'page' request.GET.urlencode %}">
+                                    Next
+                                </a>
+                            </span>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block js_code %}
+    <script>
+    // TO FORMAT THE FORMS
+        $(document).ready(function () {
+
+            $('label').hide();
+            $('input').addClass('form-control');
+            $('select').addClass('form-control');
+
+        });
+
+        $(document).ready(function () {
+            const inputs = $(".input-group > div");
+
+            inputs.css({
+                display: "flex",
+                flex: "1",
+                marginRight: "10px",
+            });
+
+            inputs.last().css("marginRight", "0");
+
+            $(".input-group").css({
+                display: "flex",
+                justifyContent: "space-between",
+            });
+        });
+
+        $("#id_recipient").attr("placeholder", "Enter Recipient Email");
+
+
+
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        function showError(element) {
+            const errorMessage = $(element).data('object-value');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error Reason',
+                text: errorMessage
+            });
+        }
+    </script>
+{% endblock %}
+
+{% block jsout %}
+
+
+    <script>
+        $(document).ready(function () {
+            $('label').hide();
+            $('input').addClass('form-control form-control-lg bg-inverse bg-opacity-5');
+            $('select').addClass('form-select');
+            $("#id_status option:first").text("-- Select Status --");
+        });
+    </script>
+{% endblock %}
