@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba136ad6-c617-48da-bab4-c98d073ec87d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.example.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frent-neonapps.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/agency-logos/eco-gardning1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/agency-logos/eco-gardning1_ZuR3nay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles-cover/eco-gardning2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profiles-cover/eco-gardning2_hlKgWPX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/images/about1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/images/red_background_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/thumbnails/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/users/certifications/blooming-cherry-blossom-reveals-beauty-png.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/users/certifications/payment.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/bll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/storage_backends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/auth/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/auth/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/auth/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/docs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/api/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/bll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/dll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/migrations/0002_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/notifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/cancelled.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/connect_wallet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/emails/subscription_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/emails/subscription_update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/emails/vendor_payout_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/emails/vendor_payout_status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/emails/vendor_transfer_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/packages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/process.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/product_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/stripecustomer_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/subscription.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/subscription_checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/subscription_failure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/subscription_success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/templates/stripe/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/webhook_core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stripe/webhooks_bll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/api/serailizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/templates/fcm/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/templates/fcm/device_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/templates/fcm/device_create_admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/templates/fcm/device_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/fcm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/templates/whisper/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/templates/whisper/device_create_admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/templates/whisper/email/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/templates/whisper/emailnotification_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/whisper/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/bll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/context_processors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/handlers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/templatetags/core_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/validators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/api/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/api/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/agency/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/api/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/api/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/migrations/0002_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/notifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/finance/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/api/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/api/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/local_guide/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/match/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/api/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/api/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/order/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reporting/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reporting/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reporting/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reporting/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reporting/migrations/0002_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reporting/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/reporting/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/api/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/validators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/api/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/api/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wallet/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2yUIkN5wLywmItyH93LkgcSSAeY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;zarar-dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba136ad6-c617-48da-bab4-c98d073ec87d" name="Changes" comment="" />
+      <created>1749882872340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749882872340</updated>
+      <workItem from="1749882873767" duration="1714000" />
+      <workItem from="1749885413088" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
